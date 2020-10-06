@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name    = "periscope-activerecord"
-  gem.version = "2.1.1"
+  gem.version = "3.0.0"
 
   gem.author   = "Steve Richert"
   gem.email    = "steve.richert@gmail.com"
@@ -10,8 +10,8 @@ Gem::Specification.new do |gem|
   gem.homepage = "https://github.com/laserlemon/periscope"
   gem.license  = "MIT"
 
-  gem.add_dependency "activerecord", ">= 3", "< 5.1"
-  gem.add_dependency "periscope", "~> 2.1.0"
+  gem.add_dependency "activerecord", ">= 5.0", "< 6.2"
+  gem.add_dependency "periscope", "~> 3.0.0"
 
   gem.files = %w(
     lib/periscope-activerecord.rb
